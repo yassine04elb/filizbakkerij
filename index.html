@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filiz Bakkerij — 2170 Merksem, Antwerpen</title>
+  <meta name="description" content="Filiz Bakkerij in Merksem, Antwerpen. Verse koffiekoeken, broodjes, snacks, pizza's en meer. Elke dag vers bereid!">
+  <meta name="google-site-verification" content="AoBVVO3xWcIH1nJb-FU6dqviKwY2LsEi1vCXmkcxV20" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="nav-brand-text">FILIZ</span>
+        <span class="nav-brand-sub">BAKKERIJ</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#bestellen">Bestellen</a></li>
+        <li><a href="#over-ons">Over Ons</a></li>
+        <li><a href="#fotos">Foto's</a></li>
+        <li><a href="#openingsuren">Openingsuren</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">2170 Merksem, Antwerpen</p>
+      <h1 class="hero-title">FILIZ</h1>
+      <p class="hero-brand-sub">BAKKERIJ</p>
+      <p class="hero-tagline">Verse koffiekoeken, broodjes, snacks &amp; pizza's — elke dag vers!</p>
+      <div class="hero-buttons">
+        <a href="#bestellen" class="btn btn-hero-bestellen">Bestellen</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <h2 class="section-title">Ons Menu</h2>
+      <p class="section-subtitle">Van verse broodjes tot heerlijke pizza's — voor elk moment van de dag</p>
+      <div class="halal-bar-wrap"><span class="halal-bar">HALAL <span class="halal-arabic">حلال</span></span></div>
+
+      <!-- Food Illustrations -->
+      <div class="food-bg" id="foodBg">
+        <span class="fb fb1">🥖</span><span class="fb fb2">🥐</span><span class="fb fb3">�</span>
+        <span class="fb fb4">🥨</span><span class="fb fb5">🥖</span><span class="fb fb6">🥐</span>
+      </div>
+
+      <!-- Menu Tabs -->
+      <div class="menu-sub-tabs" id="menu-tabs">
+        <button class="menu-tab active" data-category="snacks">Snacks</button>
+        <button class="menu-tab" data-category="pizza">Pizza's</button>
+        <button class="menu-tab" data-category="smos">Smos</button>
+        <button class="menu-tab" data-category="brood">Brood</button>
+        <button class="menu-tab" data-category="deserts">Desserts</button>
+        <button class="menu-tab" data-category="drinks">Dranken</button>
+      </div>
+
+      <!-- Menu Items -->
+      <div class="menu-grid" id="menuGrid">
+
+        <!-- SNACKS — gesorteerd goedkoopste → duurste -->
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Turkse Pizza <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;3,50</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Friet <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;3,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Mexicano Broodje <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;4,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Broodje Döner</h3></div>
+          <span class="menu-item-price">&euro;5,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Crispy Chicken</h3></div>
+          <span class="menu-item-price">&euro;5,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Döner Box</h3></div>
+          <span class="menu-item-price">&euro;6,50</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Dürüm Döner <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;6,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Panini Kip</h3></div>
+          <span class="menu-item-price">&euro;6,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Kapsalon Döner <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;7,50</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Frans Brood Döner</h3></div>
+          <span class="menu-item-price">&euro;7,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Turkse Pizza met Döner</h3></div>
+          <span class="menu-item-price">&euro;8,99</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Tako</h3></div>
+          <span class="menu-item-price">&euro;9,00</span>
+        </div>
+        <div class="menu-item" data-category="snacks">
+          <div class="menu-item-info"><h3>Kip Aan&rsquo;t Spit</h3></div>
+          <span class="menu-item-price">&euro;12,00</span>
+        </div>
+
+        <!-- PIZZA — gesorteerd goedkoopste → duurste -->
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Margherita <span class="badge badge-popular">Populair</span></h3><p>Tomatensaus, mozzarella, cherry tomaat</p></div>
+          <span class="menu-item-price">&euro;9,00</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Fantasia</h3><p>Tomatensaus, mozzarella, ham, salami, ma&iuml;s, champignon</p></div>
+          <span class="menu-item-price">&euro;12,50</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Sucuk</h3><p>Tomatensaus, mozzarella, salami, ma&iuml;s, paprika</p></div>
+          <span class="menu-item-price">&euro;12,50</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Tonton</h3><p>Tomatensaus, tonijn, ma&iuml;s, ui</p></div>
+          <span class="menu-item-price">&euro;12,50</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Groenten</h3><p>Tomatensaus, mozzarella, paprika, ui, tomaat, ma&iuml;s, olijf</p></div>
+          <span class="menu-item-price">&euro;12,50</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Kip Döner BBQ <span class="badge badge-popular">Populair</span></h3><p>Tomatensaus, BBQ saus, kip, paprika, champignons, ui</p></div>
+          <span class="menu-item-price">&euro;12,50</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Hawa&iuml;</h3><p>Tomatensaus, ananas, ham</p></div>
+          <span class="menu-item-price">&euro;12,50</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Lams Döner <span class="badge badge-popular">Populair</span></h3><p>Tomatensaus, lams, paprika, ui, tomaat</p></div>
+          <span class="menu-item-price">&euro;13,00</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Chef Semi Pizza</h3><p>Tomatensaus, kavurma, ui, paprika, ma&iuml;s, jalape&ntilde;o</p></div>
+          <span class="menu-item-price">&euro;14,00</span>
+        </div>
+        <div class="menu-item" data-category="pizza">
+          <div class="menu-item-info"><h3>Pizza Nutella</h3></div>
+          <span class="menu-item-price">&euro;15,00</span>
+        </div>
+
+        <!-- SMOS — gesorteerd goedkoopste → duurste -->
+        <div class="menu-item" data-category="smos">
+          <div class="menu-item-info"><h3>Smos Kaas <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;3,99</span>
+        </div>
+        <div class="menu-item" data-category="smos">
+          <div class="menu-item-info"><h3>Smos Tonijn <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;4,49</span>
+        </div>
+        <div class="menu-item" data-category="smos">
+          <div class="menu-item-info"><h3>Smos Tonijn Pikant</h3></div>
+          <span class="menu-item-price">&euro;4,49</span>
+        </div>
+        <div class="menu-item" data-category="smos">
+          <div class="menu-item-info"><h3>Smos Kip Curry</h3></div>
+          <span class="menu-item-price">&euro;4,49</span>
+        </div>
+        <div class="menu-item" data-category="smos">
+          <div class="menu-item-info"><h3>Smos Kip Andalouse</h3></div>
+          <span class="menu-item-price">&euro;4,49</span>
+        </div>
+        <div class="menu-item" data-category="smos">
+          <div class="menu-item-info"><h3>Smos Pr&eacute;par&eacute;</h3></div>
+          <span class="menu-item-price">&euro;4,49</span>
+        </div>
+
+        <!-- BROOD — gesorteerd goedkoopste → duurste -->
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Stokbrood <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;1,99</span>
+        </div>
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Pide Brood <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;1,99</span>
+        </div>
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Bloem Brood</h3></div>
+          <span class="menu-item-price">&euro;1,99</span>
+        </div>
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Somun Brood</h3></div>
+          <span class="menu-item-price">&euro;1,99</span>
+        </div>
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Wit Gesneden Brood <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;3,70</span>
+        </div>
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Volkoren Gesneden Brood</h3></div>
+          <span class="menu-item-price">&euro;3,99</span>
+        </div>
+        <div class="menu-item" data-category="brood">
+          <div class="menu-item-info"><h3>Grijs Gesneden Brood</h3></div>
+          <span class="menu-item-price">&euro;3,99</span>
+        </div>
+
+        <!-- DESSERTS — gesorteerd goedkoopste → duurste, geen Halal badges -->
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Donut (wit) <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;2,20</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Donut (rose)</h3></div>
+          <span class="menu-item-price">&euro;2,20</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Donut (chocolade)</h3></div>
+          <span class="menu-item-price">&euro;2,20</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Handmade Koek (2st)</h3></div>
+          <span class="menu-item-price">&euro;2,50</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Eclair <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;2,99</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Donut (oreo)</h3></div>
+          <span class="menu-item-price">&euro;2,99</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Baklava TR (2st)</h3></div>
+          <span class="menu-item-price">&euro;3,00</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Milka Muffin <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;3,50</span>
+        </div>
+        <div class="menu-item" data-category="deserts">
+          <div class="menu-item-info"><h3>Oreo Muffin</h3></div>
+          <span class="menu-item-price">&euro;3,50</span>
+        </div>
+
+        <!-- DRANKEN — gesorteerd goedkoopste → duurste -->
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Golden Power <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;1,50</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Water 0.5L</h3></div>
+          <span class="menu-item-price">&euro;1,50</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Capri Sun</h3></div>
+          <span class="menu-item-price">&euro;1,50</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Turkse Thee <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;1,99</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Ayran</h3></div>
+          <span class="menu-item-price">&euro;1,99</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Coca Cola <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;2,00</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Coca Cola Zero</h3></div>
+          <span class="menu-item-price">&euro;2,00</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Fanta <span class="badge badge-popular">Populair</span></h3></div>
+          <span class="menu-item-price">&euro;2,00</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Coca Cola 500ml</h3></div>
+          <span class="menu-item-price">&euro;3,50</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Coca Cola Zero 500ml</h3></div>
+          <span class="menu-item-price">&euro;3,50</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Fanta 500ml</h3></div>
+          <span class="menu-item-price">&euro;3,50</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Koffie</h3></div>
+          <span class="menu-item-price">&euro;3,99</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Red Bull 250ml</h3></div>
+          <span class="menu-item-price">&euro;3,99</span>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <div class="menu-item-info"><h3>Cappuccino</h3></div>
+          <span class="menu-item-price">&euro;4,50</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bestellen Section -->
+  <section class="bestellen-section" id="bestellen">
+    <div class="container">
+      <h2 class="section-title">Online Bestellen</h2>
+      <p class="section-subtitle">Kies jouw favoriete platform om te bestellen of voedseloverschot te redden</p>
+      <div class="bestellen-grid">
+
+        <!-- Deliveroo Card -->
+        <div class="bestellen-card bestellen-deliveroo">
+          <div class="bestellen-header">
+            <div class="bestellen-platform deliveroo-name">Deliveroo</div>
+            <div class="bestellen-tagline">Thuisbezorging</div>
+          </div>
+          <div class="bestellen-body">
+            <p>Bestel je favoriete pizza's, snacks en broodjes via Deliveroo. Snel aan de deur geleverd in Merksem en omgeving!</p>
+            <ul class="bestellen-features">
+              <li>&#10003; Thuisbezorging in Merksem</li>
+              <li>&#10003; Volg je bestelling live</li>
+              <li>&#10003; Betaal snel en veilig online</li>
+              <li>&#10003; Breed assortiment van ons menu</li>
+            </ul>
+          </div>
+          <a href="https://deliveroo.be/nl-be/menu/antwerp/merksem-centrum/filiz-bakkerij" target="_blank" rel="noopener" class="bestellen-btn-link deliveroo-link">Ga naar Deliveroo &rarr;</a>
+        </div>
+
+        <!-- Too Good To Go Card -->
+        <div class="bestellen-card bestellen-tgtg">
+          <div class="bestellen-header">
+            <div class="bestellen-platform tgtg-name">Too Good To Go</div>
+            <div class="bestellen-tagline">Verrassingspakket</div>
+          </div>
+          <div class="bestellen-body">
+            <p>Haal elke dag een verrassingspakket op vol verse broodjes, koffiekoeken en pizza voor een fractie van de prijs!</p>
+            <ul class="bestellen-features">
+              <li>&#10003; Ophalen: <strong>19:30 &ndash; 20:00</strong></li>
+              <li>&#10003; Waarde <strong>&euro;15,00</strong> voor slechts <strong>&euro;4,99</strong></li>
+              <li>&#10003; Beoordeling: &#9733;&#9733;&#9733;&#9733;&#9733; 4.7 (111 reviews)</li>
+              <li>&#10003; Goed voor de planeet!</li>
+            </ul>
+          </div>
+          <a href="https://www.toogoodtogo.com/nl-be/find/antwerpen/filizbakkerijmarket/meal/verrassingspakket15euro-135351330424678432" target="_blank" rel="noopener" class="bestellen-btn-link tgtg-link">Ga naar Too Good To Go &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Over Ons -->
+  <section class="about-section" id="over-ons">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="images/exterieur.jpg" alt="Filiz Bakkerij exterieur" class="about-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="about-image-placeholder" style="display:none">
+            <p>Voeg hier een foto toe</p>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title left">Over Filiz</h2>
+          <p>Welkom bij <strong>Filiz Bakkerij</strong> in Merksem, Antwerpen! Bij ons vind je elke dag verse koffiekoeken, pistolets en broodjes — gebakken met liefde. Honger? We hebben ook heerlijke snacks zoals kapsalon, broodje kip, d&uuml;r&uuml;m en Turkse pizza, én lekkere pizza's om mee te nemen.</p>
+          <p>Vriendelijkheid staat bij ons centraal. Of je nu snel iets wil meepakken of rustig wil kiezen &mdash; iedereen is welkom bij Filiz. Tot zo!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Foto's Section -->
+  <section class="fotos-section" id="fotos">
+    <div class="container">
+      <h2 class="section-title">Foto's</h2>
+      <p class="section-subtitle">Een kijkje bij ons in de zaak</p>
+      <div class="fotos-grid">
+        <div class="foto-item">
+          <img src="images/exterieur.jpg" alt="Exterieur Filiz">
+        </div>
+        <div class="foto-item">
+          <img src="images/interieur.jpg" alt="Interieur Filiz">
+        </div>
+        <div class="foto-item">
+          <img src="images/interieur groen.jpg" alt="Interieur groen Filiz">
+        </div>
+        <div class="foto-item">
+          <img src="images/pizza foto.jpg" alt="Pizza bij Filiz">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Openingsuren -->
+  <section class="hours-section" id="openingsuren">
+    <div class="container">
+      <h2 class="section-title">Openingsuren</h2>
+      <div class="hours-card">
+        <div class="hours-row closed">
+          <span class="day">Maandag</span>
+          <span class="time">Gesloten</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Dinsdag</span>
+          <span class="time">06:00 — 21:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Woensdag</span>
+          <span class="time">06:00 — 21:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Donderdag</span>
+          <span class="time">06:00 — 21:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Vrijdag</span>
+          <span class="time">06:00 — 21:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Zaterdag</span>
+          <span class="time">06:00 — 21:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Zondag</span>
+          <span class="time">06:00 — 21:00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Heb je een vraag of wil je een bestelling plaatsen? Neem gerust contact op!</p>
+      <div class="contact-grid contact-grid-2">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Adres</h3>
+          <p>Jozef Mulsstraat 42<br>2170 Antwerpen (Merksem)</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>Telefoon</h3>
+          <p><a href="tel:+32489109992">+32 489 10 99 92</a></p>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.5!2d4.4431!3d51.2364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f7a!2sJozef+Mulsstraat+42%2C+2170+Antwerpen!5e0!3m2!1snl!2sbe!4v1"
+          width="100%" height="400"
+          style="border:0; border-radius:16px;"
+          allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Filiz Bakkerij locatie">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-top-row">
+          <div class="footer-brand">
+            <h3>Filiz</h3>
+            <p>Bakkerij</p>
+          </div>
+          <div class="footer-info">
+            <p>Jozef Mulsstraat 42, 2170 Antwerpen</p>
+            <p><a href="tel:+32489109992">+32 489 10 99 92</a></p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#bestellen">Bestellen</a>
+          <a href="#over-ons">Over Ons</a>
+          <a href="#openingsuren">Openingsuren</a>
+          <a href="#fotos">Foto's</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Filiz Bakkerij. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/32489109992" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat op WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
